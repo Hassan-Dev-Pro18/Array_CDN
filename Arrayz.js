@@ -45,7 +45,7 @@ function IDArray(arr, val) {
   return arr1;
 }
 
-function RemoveElement(arr) {
+function RemoveElements(arr) {
   const arrLength = ArrayLenght(arr);
   let arr1 = [];
   for (let i = 0; i < arrLength - 1; i++) {
